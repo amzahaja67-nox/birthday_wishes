@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happy 15th Birthday Adelya Raihana Fitri</title>
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    
+    
+</head>
+<body>
+
+    <svg style="width:0;height:0;position:absolute;">
+        <defs>
+            <linearGradient id="goldGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+                <stop offset="0%" stop-color="#f3e5ab" />
+                <stop offset="50%" stop-color="#d4af37" />
+                <stop offset="100%" stop-color="#aa8416" />
+            </linearGradient>
+            <linearGradient id="pinkGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+                <stop offset="0%" stop-color="#ffb3c6" />
+                <stop offset="100%" stop-color="#ff7597" />
+            </linearGradient>
+        </defs>
+    </svg>
+
+    <canvas id="bg-canvas"></canvas>
+    
+    <canvas id="interactive-canvas"></canvas>
+    
+    <div class="vignette"></div>
+
+    <nav class="navbar">
+        <div class="logo">Ultah Adel | 15</div>
+        <ul class="nav-links">
+            <li><a href="#hero">Home</a></li>
+            <li><a href="#card">Saying</a></li>
+            <li><a href="#gallery">Gallery</a></li>
+            <li><a href="#memories">Memories</a></li>
+            <li><a href="#celebrate">Celebration</a></li>
+        </ul>
+    </nav>
+
+    <header class="hero" id="hero">
+        <div class="hero-content">
+            <div class="badge">sweet fifteen Adeel</div>
+            <h2 class="hero-title-main">Happy 15th Birthday</h2>
+            <h1 class="hero-name">Adelya Raihana Fitri</h1>
+            <p class="hero-subtitle">15 Years of Beautiful Memories, Dreams, and Happiness.</p>
+            <button class="btn-glowing" id="btn-surprise-trigger">klik ini dulu ya</button>
+        </div>
+        
+        <a href="#card" class="scroll-indicator">
+            <span>Scroll Dong</span>
+            <div class="mouse"></div>
+        </a>
+    </header>
+
+    <section id="card" class="reveal">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Pesan Untuk Kamu</h2>
+                <p class="section-desc">Pesan tulus dan doa terbaik untuk hari istimewamu.</p>
+            </div>
+            
+            <div class="wishes-card-wrapper">
+                <div class="wishes-card">
+                    <div class="wishes-card-inner-border"></div>
+                    <div class="quote-bg quote-left">“</div>
+                    
+                    <div class="card-icon">
+                        <svg viewBox="0 0 24 24">
+                            <path d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z"/>
+                        </svg>
+                    </div>
+                    
+                    <article class="letter-content">
+                        <h3 class="letter-salutation">Halo Adelya,</h3>
+                        
+                        <div class="letter-body">
+                            <p>Selamat ulang tahun yang ke-15 yaa.</p>
+                            <p>Semoga setiap langkah kamu dipenuhi oleh kebahagiaan, kesehatan, keberuntungan, dan kesuksesan.</p>
+                            <p>Terus menjadi pribadi yang baik, kuat, dan membanggakan.</p>
+                            <p class="highlight">"Jangan pernah takut untuk mengejar mimpi-mimpi kamu okeyy."</p>
+                            <p>Semoga Tuhan selalu melindungi dan memberikan yang terbaik di hidup kamu.</p>
+                            <p>Selamat ulang tahun, Adelya. Hari ini adalah hari kamu untuk senyum, bersyukur, dan menikmati momen - momen yang indah.</p>
+                        </div>
+                        
+                        <div class="letter-signature">
+                            <span></span>
+                        </div>
+                    </article>
+                    
+                    <div class="quote-bg quote-right">”</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="gallery" class="reveal">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Foto Kamu Wkwk</h2>
+                <p class="section-desc">Lembaran visual yang nyimpan senyum kamu, tawa kamu, dan dan semua tantang kamu pokoknya hehe</p>
+            </div>
+            
+            <div class="gallery-grid">
+                <!-- Frame 1 -->
+                <div class="gallery-item" data-caption="Duwaaaaaarrrrrrrr kaget yaaa wkwk">
+                    <div class="gallery-image-container">
+                        <img src="assets/images/gallery1.png" alt="Sweet 20 Birthday Cake" class="gallery-img">
+                        <div class="gallery-overlay-hover">
+                            <div class="gallery-overlay-icon">
+                                <svg viewBox="0 0 24 24"><path d="M15.5 14h-.79l-.28-.27C15.41 12.59 16 11.11 16 9.5 16 5.91 13.09 3 9.5 3S3 5.91 3 9.5 5.91 16 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z"/></svg>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="gallery-caption">
+                        <h3>My Bidadari</h3>
+                        <p>Alamak Lutunaa</p>
+                    </div>
+                </div>
+                
+                <!-- Frame 2 -->
+                <div class="gallery-item" data-caption="Cieeeeeeeee yg ultah nihh">
+                    <div class="gallery-image-container">
+                        <img src="assets/images/gallery2.png" alt="Gold and Pink Balloons" class="gallery-img">
+                        <div class="gallery-overlay-hover">
+                            <div class="gallery-overlay-icon">
+                                <svg viewBox="0 0 24 24"><path d="M15.5 14h-.79l-.28-.27C15.41 12.59 16 11.11 16 9.5 16 5.91 13.09 3 9.5 3S3 5.91 3 9.5 5.91 16 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z"/></svg>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="gallery-caption">
+                        <h3>MBG My Bini Gue</h3>
+                        <p>menu sarapan pagi nih hehe</p>
+                    </div>
+                </div>
+                
+                <!-- Frame 3 -->
+                <div class="gallery-item" data-caption="Jangan Lupa Pajak Ya wkwk">
+                    <div class="gallery-image-container">
+                        <img src="assets/images/gallery3.png" alt="Luxury wrapped gift box" class="gallery-img">
+                        <div class="gallery-overlay-hover">
+                            <div class="gallery-overlay-icon">
+                                <svg viewBox="0 0 24 24"><path d="M15.5 14h-.79l-.28-.27C15.41 12.59 16 11.11 16 9.5 16 5.91 13.09 3 9.5 3S3 5.91 3 9.5 5.91 16 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z"/></svg>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="gallery-caption">
+                        <h3>My Bidadari Lagi Niih</h3>
+                        <p>Spesial Buat Kamu</p>
+                    </div>
+                </div>
+                
+                <!-- Frame 4 -->
+                <div class="gallery-item" data-caption="Lopyuuuuuuuuu">
+                    <div class="gallery-image-container">
+                        <img src="assets/images/gallery4.png" alt="Sparkling fairy lights" class="gallery-img">
+                        <div class="gallery-overlay-hover">
+                            <div class="gallery-overlay-icon">
+                                <svg viewBox="0 0 24 24"><path d="M15.5 14h-.79l-.28-.27C15.41 12.59 16 11.11 16 9.5 16 5.91 13.09 3 9.5 3S3 5.91 3 9.5 5.91 16 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z"/></svg>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="gallery-caption">
+                        <h3>Senyum Dong</h3>
+                        <p>Cantik sekaleeee</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="memories" class="memory-section reveal">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Wihhh Ada Waktu Ultahnya Nihh</h2>
+                <p class="section-desc">Lah Besak Kini Yoo wkwk.</p>
+            </div>
+            
+            <div class="counters-grid">
+                <!-- Counter 1 -->
+                <div class="counter-card">
+                    <div class="counter-number" data-target="15">0</div>
+                    <h3 class="counter-label">Tahun</h3>
+                    <p class="counter-desc">Udah Besar Sekarang Ni Yee .</p>
+                </div>
+                
+                <!-- Counter 2 -->
+                <div class="counter-card">
+                    <div class="counter-number" data-target="5475">0</div>
+                    <h3 class="counter-label">Hari</h3>
+                    <p class="counter-desc">Wihh Lihat Tuh Udah Berapa Hari Coba Hitung wkwk.</p>
+                </div>
+                
+                <!-- Counter 3 -->
+                <div class="counter-card">
+                    <div class="counter-number" data-target="131496">0</div>
+                    <h3 class="counter-label">Jam</h3>
+                    <p class="counter-desc">Dah Berapa Jam Nih, Banyak Juga ya wkwk.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="celebrate" class="celebration-section reveal">
+        <div class="container">
+            <div class="celebration-content">
+                <div class="celebration-heart"></div>
+                <h2 class="celebration-title">Happy Sweet Fifteen,<br>Adeel</h2>
+                
+                <button class="btn-glowing trigger-celebration-again"><b>klik dong</b></button>
+                
+                <footer class="footer">
+                    Dibuat Cuman <span></span> Untuk Adelya  • 20/08/2026
+                </footer>
+            </div>
+        </div>
+    </section>
+
+    <div class="music-bar">
+        <button class="btn-play-pause" id="music-play-btn" aria-label="Play Music">
+            <svg id="play-icon" viewBox="0 0 24 24">
+                <path d="M8 5v14l11-7z"/>
+            </svg>
+            <svg id="pause-icon" viewBox="0 0 24 24" style="display:none;">
+                <path d="M6 19h4V5H6v14zm8-14v14h4V5h-4z"/>
+            </svg>
+        </button>
+        
+        <div class="music-info">
+            <span class="music-title">Selamat Ulang Tahun</span>
+            <span class="music-artist">Jamrud</span>
+        </div>
+        
+        <div class="visualizer" id="audio-visualizer">
+            <div class="bar"></div>
+            <div class="bar"></div>
+            <div class="bar"></div>
+            <div class="bar"></div>
+            <div class="bar"></div>
+        </div>
+
+        <audio id="bg-audio" loop preload="auto">
+            <source src="assets/audio/Selamat Ulang Tahun.mp3" type="audio/mpeg">
+            Your browser does not support the audio element.
+        </audio>
+    </div>
+
+    <div class="surprise-overlay" id="surprise-modal">
+        <div class="surprise-content">
+            <span class="surprise-cake"></span>
+            <h2 class="surprise-title">Happy Sweet 15, Adelya!</h2>
+            <p class="surprise-text">
+                "Hari ini adalah awal dari babak baru dalam hidup kamu. Teruslah melangkah dengan penuh keberanian, kejarlah semua mimpi kamu, dan inget selalu ya Adeel, bahwa ada cinta yang besar yang selalu mengiringi setiap langkah kamu. Selamat ulang tahun Adeel "
+            </p>
+            <button class="btn-close-surprise" id="btn-surprise-close">Tutup & Nikmati Musik</button>
+        </div>
+    </div>
+
+    <div class="lightbox" id="lightbox-modal">
+        <div class="lightbox-content">
+            <button class="btn-close-lightbox" id="btn-lightbox-close">&times;</button>
+            <img src="" alt="Lightbox image" class="lightbox-img" id="lightbox-img">
+            <div class="lightbox-caption" id="lightbox-caption"></div>
+        </div>
+    </div>
+
+    
+    <script src="assets/js/script.js" defer></script>
+</body>
+</html>

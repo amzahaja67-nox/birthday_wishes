@@ -10,6 +10,7 @@ Website ucapan ulang tahun ke-15 untuk Orang penting kamu. Proyek ini dibuat seb
 - Bagian kenangan dengan penghitung usia, hari, dan jam.
 - Tombol perayaan dan pemutar musik latar.
 - Efek animasi serta tampilan yang menyesuaikan ukuran layar.
+- Tampilan yang modern dan nyaman di lihat
 
 ## Struktur folder
 

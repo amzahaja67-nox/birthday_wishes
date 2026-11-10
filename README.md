@@ -27,6 +27,7 @@ Website ucapan ulang tahun ke-15 untuk Orang penting kamu. Proyek ini dibuat seb
         ├── gallery2.png
         ├── gallery3.png
         └── gallery4.png
+        └── favicon.png           # Favicon website
 ```
 
 ## Menjalankan
